@@ -14,6 +14,7 @@ pip install cx_Freeze
 
 控制台命令
 python setup.py build
+打包会携带 resource 目录到打包目录中
 
 
 项目参考
