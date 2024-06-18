@@ -82,13 +82,14 @@ def runTask():
 
     # resp= asyncio.run(run_task(taskId,target))
     resp = asyncio.run(run_task(taskId))
-    if resp is None:
-        return str(resp)
-    else:
-        if (taskId == '幅度'):
-            return resp.node_details[0].recognition.detail
-        else:
-            return str(resp.node_details)
+
+    # if resp is None:
+    #     return str(resp)
+    # else:
+    #     if (taskId == '幅度'):
+    #         return resp.node_details[0].recognition.detail
+    #     else:
+    return str(resp)
 
 
 
