@@ -22,3 +22,5 @@ python setup.py build
         MaaDebugger   https://github.com/MaaXYZ/MaaDebugger
 
 感谢 MaaFramework 项目的组的技术支持
+
+技术开发群   461783065
